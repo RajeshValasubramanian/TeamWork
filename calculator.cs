@@ -1,4 +1,16 @@
 class functions{
+
+    public int div(int a,int b)
+    {
+        if(b==0)
+        {
+            Console.Writeline("Denominator cannot be zero");
+            return 0;
+        }
+
+        Console.Writeline("Division of two numbers "+a/b);
+
+    }
     
 }
 class Tasks{
