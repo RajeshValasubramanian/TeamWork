@@ -1,5 +1,7 @@
 class functions{
-    
+    public void sub(int a,int b){
+        Console.WriteLine(a+b);
+    }
 }
 class Tasks{
     public static void Main(string[] args){
