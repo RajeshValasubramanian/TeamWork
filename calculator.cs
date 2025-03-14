@@ -1,10 +1,6 @@
 class functions{
 
-    public void mul(int a,int b){
-        int pro=a*b;
-        system.WriteLine("The product is:"+pro);
-    }    
-
+   
 }
 class Tasks{
 
