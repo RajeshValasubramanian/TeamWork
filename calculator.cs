@@ -1,19 +1,13 @@
 class functions{
 
-    public int div(int a,int b)
-    {
-        if(b==0)
-        {
-            Console.Writeline("Denominator cannot be zero");
-            return 0;
-        }
+    public void mul(int a,int b){
+        int pro=a*b;
+        system.WriteLine("The product is:"+pro);
+    }    
 
-        Console.Writeline("Division of two numbers "+a/b);
-
-    }
-    
 }
 class Tasks{
+
     public static void Main(string[] args){
         functions obj=new functions();
         int a=10,b=10;
