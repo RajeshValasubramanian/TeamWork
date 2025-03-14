@@ -1,6 +1,6 @@
 class functions{
     public void add(int a, int b) {
-        System.out.println(a+b);
+        Console.WriteLine(a+b);
     }
 }
 class Tasks{
